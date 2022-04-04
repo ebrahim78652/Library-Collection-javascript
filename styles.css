@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Istok-regular";
+    src: url(./designs/IstokWeb-Regular.ttf);
+}
+@font-face {
+    font-family: "Istok-bold";
+    src: url(./designs/IstokWeb-Bold.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size:16px;
+    font-family: "Istok-regular";
+    background-color:#fee2e2 ;
+}
+
+.main-container{
+    height:100vh;
+    
+}
+
+h1{
+   
+    font-size: calc(1rem + 1.5vh + 1vw);
+}
+
+.hero .intro{
+   
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.hero{
+    background-color: #dc2626 ;
+    color: white;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-left: 5vh;
+    box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.75);
+    margin-bottom: 2vh;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-left:5vh;
+    margin-bottom: 5vh;
+}
+
+.books-container{
+    margin-left: 5vh;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 350px) );
+    gap: 15px;
+    
+}
+
+.card-container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2vh;
+    border-bottom: 7px solid #334155;
+   
+    
+}
+
+.name-container, .author-container, .numPages-container, .isRead-container{
+    text-align: left;
+    display:flex;
+    
+}
+
+.card-container .name{
+    width: 100px;
+    font-weight: bold;
+}
+
+.card-container .user-options{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.card-container .user-options *{
+    background-color: #292524;
+    color: rgba(255, 255, 255, 0.589);
+    border-radius: 20px;
+    padding: 3px 20px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+
+html{
+    height: 100%;
+}
+
+.form{
+    display : flex;
+    flex-direction: column;
+    width: 50vh;
+    backdrop-filter: blur(20px);
+    border: 1px solid black;
+    border-radius:10px;
+    padding: 15px;
+    font-family: "Istok-regular";
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    
+    
+}
+
+.form-wrapper{
+    position:absolute;
+    left:0;right:0;top:0;bottom:0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+input{
+    padding: 5px;
+    margin-bottom: 15px;;
+}
+
+
+.done, .addBook, .close{
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #166534 ;
+    color: white;
+    cursor: pointer;
+    font-weight: normal;
+    outline: none;
+    border:none 
+
+}
+
+.done{
+    padding: 5px;
+}
+
+
+
+.addBook{
+    margin-left: 5vh;
+    margin-bottom: 5vh;
+}
+
+.close{
+    background-color:#b91c1c ;
+}
+
+:invalid{
+    border: 2px solid red;
+}
+
+
+
+
+
+
