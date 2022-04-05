@@ -17,14 +17,6 @@ Book.prototype.toggleRead = function () {
 let books = [];
 
 
-//book1= new Book("Harry Potter and the Order of the Phoenix", "JK-Rowling", 500, false);
-//book2= new Book("The Bible", "Jesus-Christ", 786, true);
-//book3= new Book("The Communist Manifesto", "Karl-Marx", 300, false);
-//book4= new Book("Mein Kampf", "Adolph-Hitler", 250, false);
-
-
-
-
 
 
 //function to display the books
